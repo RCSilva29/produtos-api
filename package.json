@@ -1,0 +1,27 @@
+{
+  "name": "produtos-api",
+  "version": "1.0.0",
+  "description": "API de produtos com Docker e PostgreSQL em NodeJS e Swagger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCSilva29/produtos-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RCSilva29/produtos-api/issues"
+  },
+  "homepage": "https://github.com/RCSilva29/produtos-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
